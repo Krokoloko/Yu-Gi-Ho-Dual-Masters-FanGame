@@ -1,15 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class Card : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    //delgates
+    public Action OnReplacement;
+    public Action OnFieldEnter;
+    public Action OnFieldExit;
+
+    public int id;
+    public Enums.CardType type;
+    public string cardName;
+    public string description;
+    public Sprite image;
+
+    void Start () {
 		
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		
 	}

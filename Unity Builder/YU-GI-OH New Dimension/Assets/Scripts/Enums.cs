@@ -20,6 +20,14 @@ public class Enums : MonoBehaviour
         Toon=11,
         Link=12
     }
+    public enum Phases
+    {
+        DrawPhase=0,
+        MainPhase1=1,
+        BattlePhase=2,
+        MainPhase2=3,
+        EndPhase=4
+    }
     public enum SpellType
     {
         Normal=0,
