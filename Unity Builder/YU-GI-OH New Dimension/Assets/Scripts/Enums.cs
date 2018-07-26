@@ -66,4 +66,14 @@ public class Enums : MonoBehaviour
         Wyrm=22,
         Cyberse=23
     }
+
+    public enum Phase
+    {
+        DrawPhase=0,
+        Standby=1,
+        MainPhase1=2,
+        BattlePhase=3,
+        MainPhase2=4,
+        Endphase=5
+    };
 }
