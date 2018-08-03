@@ -46,4 +46,9 @@ public class OnButtonClick : MonoBehaviour {
             g.SetActive(false);
         }
     }
+
+    public void SelectPhase(string phase)
+    {
+        GamePhase.value = phase;
+    }
 }

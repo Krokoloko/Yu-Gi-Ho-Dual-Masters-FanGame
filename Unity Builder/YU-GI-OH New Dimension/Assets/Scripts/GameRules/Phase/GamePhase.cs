@@ -5,8 +5,7 @@ using UnityEngine;
 public class GamePhase : MonoBehaviour {
 
     public GameObject currentPlayer;
-
-    private Enums.Phase value = Enums.Phase.DrawPhase;
+    public Enums.Phase value = Enums.Phase.DrawPhase;
     
     void Start ()
     {
